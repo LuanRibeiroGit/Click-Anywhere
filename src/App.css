@@ -1,0 +1,31 @@
+#page{
+    background-color: #f6f6f6;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+}
+
+#page .dot{
+    background-color: red;
+    height: 10px;
+    width: 10px;
+
+    top: 100px;
+    left: 100px;
+
+    display: block;
+
+    position: absolute;
+    border-radius: 30px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+
+    margin: 10px;
+}
